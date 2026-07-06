@@ -114,8 +114,15 @@
         width: 66px;
         height: 66px;
         border-radius: 50%;
-        object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: rgba(255, 252, 246, 0.92);
+        border: 6px solid #682639;
+        color: #682639;
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: -2px;
         box-shadow: 0 4px 12px rgba(95, 73, 55, 0.16);
       }
 
@@ -413,11 +420,9 @@
         <div class="hero">
           <div class="container hero-container">
             <div class="hero-brand">
-              <img
-                class="university-logo"
-                src="universidad-kennedy-logo.png"
-                alt="Logo Universidad Kennedy"
-              />
+              <div class="university-logo" aria-label="Logo Universidad Kennedy">
+                UK
+              </div>
               <span>Mi Blog</span>
             </div>
 
